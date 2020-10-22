@@ -4,12 +4,12 @@ function Header() {
     return (
         <div className="header">
             <div className="header__inner" >
-                <nav>
-                    <li>Works</li>
-                    <li>Contact</li>
-                    <li>Instagram</li>
-                    <li>About</li>
-                </nav>
+                <div className="header__logo">
+                    <p className="header__logo_text">Vadim Chorrny</p>
+                </div>
+                <div className="header__menu">
+
+                </div>
             </div>
         </div>
     )
