@@ -52,6 +52,7 @@ $red: #FA7268;
     font-size: 25px;
     color: $black;
     font-family: GMed;
+    
 }
 
 .header__burgermenu img{
@@ -66,21 +67,19 @@ $red: #FA7268;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 130px;
+    margin-top: 110px;
 }
 
 .contents__inner{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    column-gap: 5px;
 }
 
 .contents__text_first{
     font-family: GLight;
     font-size: 20px;
     color: $gray;
-    
 }
 
 .contents__text_second{
