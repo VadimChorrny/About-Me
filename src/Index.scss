@@ -1,0 +1,57 @@
+/* Imports fonts */ 
+
+@font-face{
+    font-family: GLight;
+    src: url(./Fonts/GothamPro-Light.woff2);
+    font-display: swap;
+}
+
+@font-face{
+    font-family: GReg;
+    src: url(./Fonts/GothamPro-Reg.woff2);
+    font-display: swap;
+}
+
+@font-face{
+    font-family: GMed;
+    src: url(./Fonts/GothamPro-Medium.woff2);
+    font-display: swap;
+}
+
+@font-face{
+    font-family: GBold;
+    src: url(./Fonts/GothamPro-Bold.woff2);
+    font-display: swap;
+}
+
+/* Imports color */
+
+$black: #292929;
+
+/* My code */
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__inner{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header__logo p{
+    font-size: 25px;
+    color: $black;
+    font-family: GMed;
+}
+
+.header__burgermenu img{
+    width: 25px;
+    height: 20px;
+    padding-top: 20px;
+}
