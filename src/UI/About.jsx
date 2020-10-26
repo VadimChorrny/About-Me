@@ -1,9 +1,6 @@
 import React from 'react'
 
 function About() {
-
-    
-
     return (
         <div className="about">
             <div className="about__inner">
