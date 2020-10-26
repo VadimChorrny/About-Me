@@ -27,9 +27,13 @@
 /* Imports color */
 
 $black: #292929;
+$gray: #B8B8B8;
+$red: #FA7268;
 
 /* My code */
 
+
+/* Header */
 .header{
     width: 100%;
     display: flex;
@@ -44,14 +48,63 @@ $black: #292929;
     
 }
 
+.header__logo{
+    text-decoration: none;
+
+}
+
 .header__logo p{
     font-size: 25px;
     color: $black;
     font-family: GMed;
 }
 
+
+
 .header__burgermenu img{
     width: 25px;
     height: 20px;
     padding-top: 20px;
+}
+
+/* Contents */
+.contents{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+    
+}
+
+.contents__inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contents__text_first{
+    font-family: GLight;
+    font-size: 20px;
+    color: $gray;
+    
+}
+
+.contents__text_second{
+    font-family: GMed;
+    font-size: 60px;
+    color: $black;
+    margin: 15px;
+}
+
+.contents__text_second span{
+    color: $red;
+}
+
+.contents__text_third{
+    font-family: GReg;
+    font-size: 25px;
+    display: flex;
+    width: 900px;
+    
 }
