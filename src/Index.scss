@@ -29,6 +29,10 @@
 $black: #292929;
 $gray: #B8B8B8;
 $red: #FA7268;
+$bgGray: #2C2C31;
+$white: #FFFFFF;
+$boxGray:  #333339;
+$stroke: #4F4F4F;
 
 /* My code */
 
@@ -107,4 +111,96 @@ $red: #FA7268;
     display: flex;
     width: 900px;
     
+}
+
+/* Skills */
+
+.skills{
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bgGray;
+    margin-top: 300px;    
+
+}
+
+.skills__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.our-services h1{
+    font-size: 50px;
+    font-family: GMed;
+    color: $white;
+}
+
+.our-services p {
+    font-family: GLight;
+    font-size: 20px;
+    color: $white;
+}
+
+// skill box
+
+.skill-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 400px;
+    gap: 25px;
+    padding: 80px;
+}
+
+.box-first{
+    width: 350px;
+    height: 400px;
+    background-color:$boxGray;
+    border-radius: 12px;
+}
+
+.box-logo{
+    text-align: center;
+    text-shadow: 
+    -1px 0 0 $stroke, 
+    0 -1px 0 $stroke,
+    1px 0 0 $stroke,
+    0 1px 0 $stroke; 
+    font-size: 150px;
+    color: $boxGray;
+    margin: 0;
+    font-family: GReg;
+}
+
+.box-design{
+    font-size: 30px;
+    line-height: 35px;
+    color: $white;
+    font-family: GMed;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+.skill-box span{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 20px;
+    font-family: GLight;
+    color: $red;
+    padding-left: 25px;   
 }
