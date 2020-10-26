@@ -204,3 +204,82 @@ $stroke: #4F4F4F;
     color: $red;
     padding-left: 25px;   
 }
+
+/* About layout */
+
+.about{
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__inner{
+    display: flex;
+}
+
+.about-block-help{
+    width: 392px;
+    height: 120px;
+    margin-right: 400px;
+}
+
+.about-block-help h1 {
+    font-family: GMed;
+    font-size: 50px;
+    color: $black;
+}
+
+.about-block-help p {
+    font-family: GLight;
+    font-size: 20px;
+}
+
+.about-block-design{
+    width: 112px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+
+.about-block-design span{
+    font-size: 21px;
+    font-family: GReg;
+    color: $red;
+}
+
+.about-block-design p{
+    font-family: GReg;
+    font-size: 21px;
+    color: $black;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.about-block-development{
+    width: 112px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-right: 200px;
+
+}
+
+.about-block-development span{
+    font-size: 21px;
+    font-family: GReg;
+    color: $red;
+}
+
+.about-block-design p{
+    font-family: GReg;
+    font-size: 21px;
+    color: $black;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
