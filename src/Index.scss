@@ -48,12 +48,18 @@ $red: #FA7268;
     
 }
 
+.header__logo{
+    text-decoration: none;
+
+}
+
 .header__logo p{
     font-size: 25px;
     color: $black;
     font-family: GMed;
-    
 }
+
+
 
 .header__burgermenu img{
     width: 25px;
@@ -68,6 +74,7 @@ $red: #FA7268;
     justify-content: center;
     align-items: center;
     margin-top: 110px;
+    
 }
 
 .contents__inner{
@@ -80,12 +87,14 @@ $red: #FA7268;
     font-family: GLight;
     font-size: 20px;
     color: $gray;
+    
 }
 
 .contents__text_second{
     font-family: GMed;
     font-size: 60px;
     color: $black;
+    margin: 15px;
 }
 
 .contents__text_second span{
@@ -97,4 +106,5 @@ $red: #FA7268;
     font-size: 25px;
     display: flex;
     width: 900px;
+    
 }
