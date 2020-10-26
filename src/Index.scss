@@ -29,7 +29,9 @@
 $black: #292929;
 $gray: #B8B8B8;
 $red: #FA7268;
-
+$bgGray: #2C2C31;
+$white: #FFFFFF;
+$boxGray:  #333339;
 /* My code */
 
 
@@ -108,3 +110,46 @@ $red: #FA7268;
     width: 900px;
     
 }
+
+/* Skills */
+
+.skills{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    background-color: $bgGray;
+}
+
+.skills__inner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    
+    margin-top: 150px;
+    width: 500px;
+}
+
+.our-services h1{
+    font-size: 50px;
+    font-family: GMed;
+    color: $white;
+}
+
+.our-services p {
+    font-family: GLight;
+    font-size: 20px;
+    color: $white;
+}
+
+// skill box
+
