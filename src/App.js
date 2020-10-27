@@ -2,6 +2,7 @@ import React from 'react'
 import FirstLayout from './Pages/FirstLayout'
 import SecondLayout from './Pages/SecondLayout'
 import ThirdLayout from './Pages/ThirdLayout'
+import Acces from './Pages/Acces'
 import "./Index.scss"
 import Menu from './UI/Menu';
 import Header from './UI/Header'
@@ -13,15 +14,15 @@ function App() {
 
     <BrowserRouter>
       <div className="App">
-        <Header />
-        <FirstLayout />
-        <SecondLayout />
-        <ThirdLayout />
         <Switch>
           <Route path="/menu" exact>
             <Menu />
           </Route>
+
         </Switch>
+        <Header />
+        <Acces />
+
       </div>
     </BrowserRouter>
   );
