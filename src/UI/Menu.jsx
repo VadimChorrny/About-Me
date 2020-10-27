@@ -1,11 +1,12 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Menu() {
     return (
-        <div className="menu">
+        <div id="#menu" className="menu">
             <div className="menu__inner">
                 <div className="about-bar">
-                    <img src="vadim.png" alt="vadim-icon" />
+                    <img src="instagram.png" alt="vadim-icon" />
                     <p className="about-cont">CONTACT DETAILS </p>
                     <p className="about-gmail">chorrny228@gmail.com</p>
                     <p className="about-number">+38(068)34-86-211</p>
@@ -28,7 +29,7 @@ function Menu() {
 
                 </div>
                 <div className="close">
-                    <img src="cancel.png" alt="cancel-icon" />
+                    <NavLink to="/home"><img src="cancel.png" alt="cancel-icon" /></NavLink>
 
                 </div>
             </div>
