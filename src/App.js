@@ -3,14 +3,16 @@ import FirstLayout from './Pages/FirstLayout'
 import SecondLayout from './Pages/SecondLayout'
 import ThirdLayout from './Pages/ThirdLayout'
 import "./Index.scss"
+import Menu from './UI/Menu';
 
 
 function App() {
   return (
     <div className="App">
-      <FirstLayout />
+      {/* <FirstLayout />
       <SecondLayout />
-      <ThirdLayout />
+      <ThirdLayout /> */}
+      <Menu />
     </div>
   );
 }
