@@ -318,3 +318,121 @@ $stroke: #4F4F4F;
     padding: 10px;
     padding-left: 40px;
 }
+
+/* Menu layout */
+
+.menu{
+    width: 100%;
+    height: 721px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bgGray;
+}
+
+// .menu::after{
+//     html{
+//         overflow: hidden;
+//     }
+//     div{
+//         height: 721px;
+//     }
+// }
+
+.menu__inner{
+    width: 95%;
+    display: flex;
+}
+
+.about-bar{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 120px;
+    gap: 30px;
+}
+
+.about-bar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: flex;
+    
+}
+
+.about-cont{
+    font-size: 30px;
+    font-family: GLight;
+    color: $red;
+    margin-top: 40px;
+}
+
+.about-gmail{
+    font-size: 25px;
+    font-family: GReg;
+    color: $white;
+}
+
+.about-number{
+    font-size: 25px;
+    font-family: GReg;
+    color: $white;
+}
+
+.about-bar span{
+    font-size: 30px;
+    font-family: GLight;
+    color: $red;
+    margin-top: 20px;
+}
+
+.about-img{
+    display: flex;
+    gap: 40px;
+}
+
+.about-img img{
+    width: 30px;
+    height: 30px;
+}
+
+// sidebar 
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+    padding-left: 550px;
+    text-align: right;
+}
+
+.side-bar span{
+    font-family: GBold;
+    font-size: 70px;
+    color: $red;
+    text-decoration: none;
+}
+
+.side-bar span:hover{
+    color: $white;
+    cursor: pointer;
+}
+
+.side-bar p {
+    font-family: GBold;
+    font-size: 70px;
+    color: $white;
+    
+}
+
+.side-bar p:hover{
+    color: $red;
+    cursor: pointer;
+}
+
+.close img{
+    width: 20px;
+    height: 20px;
+    padding-left: 150px;
+}

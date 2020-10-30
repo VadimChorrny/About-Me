@@ -5,8 +5,7 @@ import Contents from '../UI/Contents'
 export default function FirstLayout() {
     return (
         <div>
-            <Header />
-            <Contents />
+            <Contents job='Full-stack web Developer' description='A full cycle freelancer who develops and creates great digital products, brands and experiences.' />
         </div>
     )
 }
