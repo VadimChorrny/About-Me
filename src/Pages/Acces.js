@@ -12,5 +12,4 @@ function Acces() {
         </div>
     )
 }
-
 export default Acces

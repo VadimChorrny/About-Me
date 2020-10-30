@@ -10,6 +10,8 @@ import { Route, BrowserRouter, Switch } from 'react-router-dom'
 
 
 function App() {
+
+
   return (
 
     <BrowserRouter>
@@ -18,11 +20,15 @@ function App() {
           <Route path="/menu" exact>
             <Menu />
           </Route>
-
+          <Route path="/" exact>
+            <Header name='Vadim Chorrny' />
+            <Acces />
+          </Route>
+          <Route path="/home" exact>
+            <Header name='Vadim Chorrny' />
+            <Acces />
+          </Route>
         </Switch>
-        <Header />
-        <Acces />
-
       </div>
     </BrowserRouter>
   );

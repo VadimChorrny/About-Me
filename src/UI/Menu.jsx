@@ -22,15 +22,12 @@ function Menu() {
                 <div className="side-bar">
                     <span>Home</span>
                     <p>About</p>
-                    <p>Contact</p>
+                    <p>My skills</p>
                     <p>My work</p>
                     <p>Services</p>
-
-
                 </div>
                 <div className="close">
                     <NavLink to="/home"><img src="cancel.png" alt="cancel-icon" /></NavLink>
-
                 </div>
             </div>
         </div>
