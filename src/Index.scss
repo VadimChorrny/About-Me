@@ -225,7 +225,7 @@ $stroke: #4F4F4F;
 .about-block-help{
     width: 392px;
     height: 120px;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .about-block-help h1 {
@@ -252,14 +252,15 @@ $stroke: #4F4F4F;
     font-size: 21px;
     font-family: GReg;
     color: $red;
+    margin-left: 100px;
 }
 
 .about-block-design p{
     font-family: GReg;
     font-size: 21px;
     color: $black;
-    padding: 0;
-    margin: 0;
+    margin-left: 100px;
+    
     padding-top: 10px;
 }
 
@@ -267,7 +268,7 @@ $stroke: #4F4F4F;
     width: 112px;
     display: flex;
     flex-direction: column;
-    margin-right: 200px;
+    margin-right: 180px;
 
 }
 
@@ -275,6 +276,8 @@ $stroke: #4F4F4F;
     font-size: 21px;
     font-family: GReg;
     color: $red;
+    margin-left: 149px;
+
 }
 
 .about-block-development p{
@@ -284,6 +287,8 @@ $stroke: #4F4F4F;
     padding: 0;
     margin: 0;
     padding-top: 10px;
+    margin-left: 149px;
+
 }
 
 /* Footer */
@@ -439,3 +444,37 @@ $stroke: #4F4F4F;
 
 // Modal window
 
+.modal-window{
+    width: 100%;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    filter: blur(5px);
+}
+
+.general-modal{
+    width: 500px;
+    height: 300px;
+    margin-left: 500px;
+    border-radius: 10px;
+    background-color: $bgGray;
+    outline: none;
+}
+
+.h-modal{
+    text-align: center;
+    font-size: 30px;
+    font-family: GBold;
+    color: $red;
+    padding-top: 30px;
+}
+
+.b-modal{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: GMed;
+    color: $white;
+}
