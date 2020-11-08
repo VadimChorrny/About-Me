@@ -499,7 +499,6 @@ $stroke: #4F4F4F;
         padding-top: 20px;
         width: 50px;
         height: 50px;
-        margin-right: -50px;
     }
 
     // contents
@@ -551,3 +550,64 @@ $stroke: #4F4F4F;
     }
 }
 
+@media (max-width: 800px){
+
+    .header{
+        width: 950px;
+    }
+
+    .header__logo p {
+        font-size: 50px;
+    }
+
+    .header__burgermenu img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .contents{
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap ;
+        padding: 50px;
+    }
+
+    .contents__inner{
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        flex-wrap: wrap;
+    }
+
+    .contents__text_first{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 40px;
+    }
+
+    .contents__text_second{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: left;
+        font-size: 80px;
+        padding-top: 30px;
+    }
+
+    .contents__text_third{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 600px;
+        padding-left: 95px;
+        padding-top: 40px;
+        font-size: 50px;
+
+    }
+}
