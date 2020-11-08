@@ -10,7 +10,7 @@ function ModalWindow() {
 
     return (
         <>
-            <div className="modal-window">
+            <div id="#modal" className="modal-window">
                 <Modal className="general-modal" show={show} onHide={handleClose}>
                     <Modal.Title className="h-modal">Modal heading</Modal.Title>
                     <Modal.Body className="b-modal">Lorem ipsum dolor, sit amet consectetur
