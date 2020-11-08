@@ -8,7 +8,7 @@ function Contents(props) {
 
                 <p className="contents__text_first">{props.job}</p>
 
-                <p className="contents__text_second">I create <span>custom</span> and design sites</p>
+                <p className="contents__text_second">I create <span> custom </span> and design sites</p>
 
                 <p className="contents__text_third">{props.description}</p>
             </div>
