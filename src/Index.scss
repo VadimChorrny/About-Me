@@ -610,4 +610,29 @@ $stroke: #4F4F4F;
         font-size: 50px;
 
     }
+
+    // skills
+
+    .skills{
+        height: 1700px;
+        width: 800px;
+    }
+
+    .our-services{
+        position: absolute;
+        margin-bottom: 1400px;
+        padding: 250px;
+    }
+
+    .skill-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .box-first{
+        width: 550px;
+        height: 500px;
+    }
 }
