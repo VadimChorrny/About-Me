@@ -21,7 +21,7 @@ function About() {
                     <p>Illustration</p>
                 </div>
                 <div className="about-block-development">
-                    <span>Development</span>
+                    <span className="">Development</span>
                     <p>Web Development</p>
                 </div>
             </div>

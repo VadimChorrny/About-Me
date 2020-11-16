@@ -637,4 +637,58 @@ $stroke: #4F4F4F;
         width: 550px;
         height: 500px;
     }
+
+    .about{
+        width: 800px;
+        
+    }
+    .about__inner{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 300px ;
+        justify-content: center;
+        align-items: center;    
+    }
+    .about-block-help{
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-block-help p{
+        font-size: 40px;
+    }
+
+    .about-block-design{
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 550px;
+    }
+
+    .about-block-design span{
+        font-size: 50px;
+    }
+    .about-block-design p {
+        font-size: 40px;
+    }
+
+    .about-block-development
+    {
+        margin-right: 650px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-block-development span{
+        font-size: 50px;
+    }
+    .about-block-development p {
+        font-size: 40px;
+    }
+
 }
